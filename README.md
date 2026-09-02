@@ -5,7 +5,7 @@ SHA256 du ZIP (v1.0) :
 Installation (procédure recommandée, sécurisée)
 
 Télécharger et vérifier le script d’installation (inspecter le contenu) :
-Invoke-WebRequest -UseBasicParsing -OutFile oneclick_installer.ps1 'https://raw.githubusercontent.com/truepilot97865/youtube-to-mp3/main/scripts/oneclick_installer.ps1'
+Invoke-WebRequest -UseBasicParsing -OutFile oneclick_installer.ps1 
 Ouvrez ensuite le script pour vérification : notepad oneclick_installer.ps1
 
 (Optionnel mais recommandé) Vérifier l’intégrité du ZIP après l’avoir téléchargé depuis la Release :
@@ -14,7 +14,7 @@ La valeur attendue :
 2EC8AD2D33D18BF79EAF17D4173B04FE9C7D263911A7226450802ECECF13D81F
 
 Lancer l’installation (après vérification) — le script demandera l’élévation UAC :
-powershell -ExecutionPolicy Bypass -File .\oneclick_installer.ps1 -ProjectZipUrl 'https://github.com/truepilot97865/youtube-to-mp3/releases/download/v1.0/youtube-to-mp3-release-v1.zip' -BuildExe
+powershell -ExecutionPolicy Bypass -File .\oneclick_installer.ps1 -ProjectZipUrl 
 
 Que fait le script
 
