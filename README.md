@@ -36,5 +36,6 @@ Support & dépannage
 
 
 Réalisée par un jeune de 16 ans, si besoin d'aide veuillez me contactez
-Si l’installation échoue ou si l’exécutable ne fonctionne pas, ouvrez une issue sur le dépôt : https://github.com/truepilot97865/youtube-to-mp3/issues
+Si l’installation échoue ou si l’exécutable ne fonctionne pas contactez moi en MP si néccessaire
+
 Pour assistance immédiate, copiez/collez la sortie d’erreur dans l’issue.
